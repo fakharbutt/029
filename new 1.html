@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <form action="" method="GET" autocomplete="on">
+            <fieldset>
+                <legend>Customer Info</legend>
+                <label >Name:</label>&nbsp<input autofocus="autofocus" type="text" name="name" placeholder="Enter your name"> <br/><br/>
+                <label >Telephone:</label><input type="text" name="Telephone"  placeholder="pattern 1-234-5678910 "><br/><br/> 
+                <label >Email address:</label><input  type="email" name="Email" placeholder="Enter your email address"> <br/><br/>      
+            </fieldset>
+            <fieldset>
+                <legend>Books</legend>
+                <select name="Book" >
+                    <option></option>
+                    <option>Chemistry</option>
+                    <option>Physics</option>
+                    <option>Biology</option>
+                </select>
+                <label >Quantity (Maximum 5):</label><input type="number" name="Quantity" min="1" max="5">
+            </fieldset>
+            <input type="Submit" value="Submit">
+        </form>
+    </body>
+</html>
